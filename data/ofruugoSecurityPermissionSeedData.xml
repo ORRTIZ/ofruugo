@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-engine-xml>
+    <SecurityPermission description="View operations in the ofruugo Component." permissionId="ofruugo_VIEW"/>
+    <SecurityPermission description="Create operations in the ofruugo Component." permissionId="ofruugo_CREATE"/>
+    <SecurityPermission description="Update operations in the ofruugo Component." permissionId="ofruugo_UPDATE"/>
+    <SecurityPermission description="Delete operations in the ofruugo Component." permissionId="ofruugo_DELETE"/>
+    <SecurityPermission description="ALL operations in the ofruugo Component." permissionId="ofruugo_ADMIN"/>
+
+    <SecurityGroupPermission groupId="SUPER" permissionId="ofruugo_ADMIN"/>
+
+</entity-engine-xml>

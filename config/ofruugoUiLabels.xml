@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://ofbiz.apache.org/dtds/ofbiz-properties.xsd">
+    <property key="ofruugoApplication">
+        <value xml:lang="en">ofruugo</value>
+    </property>
+    <property key="ofruugoCompanyName">
+        <value xml:lang="en">ofruugo</value>
+    </property>
+    <property key="ofruugoCompanySubtitle">
+        <value xml:lang="en">An Apache OFBiz(tm) Component</value>
+    </property>
+    <property key="ofruugoCompanySubtitle">
+        <value xml:lang="en">Part of the Apache OFBiz Family of Open Source Software</value>
+        <value xml:lang="it">Un modulo della famiglia di software open source Apache OFBiz</value>
+        <value xml:lang="zh">开源软件OFBiz的组成部分</value>
+        <value xml:lang="zh-TW">開源軟體OFBiz的組成部分</value>
+    </property>
+    <property key="ofruugoViewPermissionError">
+        <value xml:lang="en">You are not allowed to view this page.</value>
+    </property>
+</resource>
