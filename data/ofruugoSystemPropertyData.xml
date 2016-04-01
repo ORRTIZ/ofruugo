@@ -16,5 +16,117 @@
 
  -->
 <entity-engine-xml>
-
+    
+    <SystemProperty 
+        systemPropertyId="apiEnvironment" 
+        systemPropertyValue="test"
+        description="Fruugo Api Environment. Allowed value is: 'test' or 'production'" 
+        systemResourceId="ofruugo"
+        />
+    
+    <SystemProperty 
+        systemPropertyId="HostProtocol.production" 
+        systemPropertyValue="https"
+        description="Fruugo apiProtocol for production purposes" 
+        systemResourceId="ofruugo"
+        />
+    
+    <SystemProperty 
+        systemPropertyId="HostProtocol.test" 
+        systemPropertyValue="https"
+        description="Fruugo apiProtocol for testing purposes" 
+        systemResourceId="ofruugo"
+        />
+    
+    <SystemProperty 
+        systemPropertyId="HostName.production" 
+        systemPropertyValue="www.fruugo.com"
+        description="Fruugo apiHostName for production purposes" 
+        systemResourceId="ofruugo"
+        />
+    
+    <SystemProperty 
+        systemPropertyId="HostName.test" 
+        systemPropertyValue="testapi.fruugo.com"
+        description="Fruugo apiHostName for testing purposes" 
+        systemResourceId="ofruugo"
+        />
+    
+    <SystemProperty 
+        systemPropertyId="HostPort.production" 
+        systemPropertyValue="443"
+        description="Fruugo apiPort for production purposes" 
+        systemResourceId="ofruugo"
+        />
+    
+    <SystemProperty 
+        systemPropertyId="HostPort.test" 
+        systemPropertyValue="443"
+        description="Fruugo apiPort for testing purposes" 
+        systemResourceId="ofruugo"
+        />
+    
+    <SystemProperty 
+        systemPropertyId="apiKey.production" 
+        systemPropertyValue="Put your api key here" 
+        description="Fruugo api key for production purposes" 
+        systemResourceId="ofruugo"
+        />
+    
+    <SystemProperty 
+        systemPropertyId="apiKey.test" 
+        description="Fruugo api key for testing purposes" 
+        systemResourceId="ofruugo"
+        systemPropertyValue="Put your api key here" 
+        />
+    
+    <SystemProperty 
+        systemPropertyId="apiRequest.production.orders" 
+        systemPropertyValue="/orders"
+        description="Fruugo Request related to orders in the production environment"
+        systemResourceId="ofruugo"
+        />
+    
+    <SystemProperty 
+        systemPropertyId="apiRequest.test.orders" 
+        systemPropertyValue="/orders"
+        description="Fruugo Request related to orders in the the test environment"
+        systemResourceId="ofruugo"
+        />
+    
+    <SystemProperty 
+        systemPropertyId="apiRequest.production.orders.interval" 
+        systemPropertyValue="interval"
+        description="Fruugo Request related to orders in the production environment"
+        systemResourceId="ofruugo"
+        />
+    
+    <SystemProperty 
+        systemPropertyId="defaultCurrency" 
+        systemPropertyValue="EUR"
+        description="Fruugo default currency."
+        systemResourceId="ofruugo"
+        />
+    
+    <SystemProperty 
+        systemPropertyId="defaultOrderType" 
+        systemPropertyValue="direct"
+        description="Fruugo default order type.  Allowed value is: 'direct' or 'redirect'"
+        systemResourceId="ofruugo"
+        />
+    
+    <SystemProperty 
+        systemPropertyId="userName" 
+        systemPropertyValue="userName"
+        description="Fruugo userName. Provided by Fruugo. This is the same as the one you use to connect to our Fruugo Merchant Centre"
+        systemResourceId="ofruugo"
+        />
+    
+    <SystemProperty 
+        systemPropertyId="passWord" 
+        systemPropertyValue="password"
+        description="Fruugo password.  This is the same as the one you use to connect to our Fruugo Merchant Centre"
+        systemResourceId="ofruugo"
+        />
+    
 </entity-engine-xml>
