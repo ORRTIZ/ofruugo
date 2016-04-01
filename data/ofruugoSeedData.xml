@@ -23,4 +23,7 @@
     <GoodIdentificationType description="JAN" goodIdentificationTypeId="JAN" hasTable="N" parentTypeId="GTIN"/>
     <GoodIdentificationType description="UPCA" goodIdentificationTypeId="UPCA" hasTable="N" parentTypeId="GTIN"/>
     <GoodIdentificationType description="UPCE" goodIdentificationTypeId="UPCE" hasTable="N" parentTypeId="GTIN"/>
+    
+    <Enumeration description="Via Fruugo" enumCode="FRUUGO" enumId="ofruugo" sequenceId="61" enumTypeId="ORDER_SALES_CHANNEL"/>
+    
 </entity-engine-xml>
