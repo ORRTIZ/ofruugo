@@ -75,9 +75,9 @@
     
     <SystemProperty 
         systemPropertyId="apiKey.test" 
+        systemPropertyValue="Put your api key here" 
         description="Fruugo api key for testing purposes" 
         systemResourceId="ofruugo"
-        systemPropertyValue="Put your api key here" 
         />
     
     <SystemProperty 
@@ -116,16 +116,16 @@
         />
     
     <SystemProperty 
-        systemPropertyId="userName" 
-        systemPropertyValue="userName"
-        description="Fruugo userName. Provided by Fruugo. This is the same as the one you use to connect to our Fruugo Merchant Centre"
+        systemPropertyId="merchantId" 
+        systemPropertyValue="merchantId"
+        description="Fruugo merchantId. Provided by Fruugo. This is the same as the username you use to connect to our Fruugo Merchant Centre"
         systemResourceId="ofruugo"
         />
     
     <SystemProperty 
-        systemPropertyId="passWord" 
-        systemPropertyValue="password"
-        description="Fruugo password.  This is the same as the one you use to connect to our Fruugo Merchant Centre"
+        systemPropertyId="merchantKey" 
+        systemPropertyValue="merchantKey"
+        description="Fruugo merchantKey.  This is the same as the password you use to connect to our Fruugo Merchant Centre"
         systemResourceId="ofruugo"
         />
     
