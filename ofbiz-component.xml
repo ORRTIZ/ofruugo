@@ -20,7 +20,7 @@
     <entity-resource type="data" reader-name="seed" loader="main" location="data/ofruugoTypeData.xml"/>
     <entity-resource type="data" reader-name="seed" loader="main" location="data/ofruugoSecurityPermissionSeedData.xml"/>
     
-    <entity-resource type="data" reader-name="seed-initial" loader="main" location="data/ofruugoSystemPropertyData.xml"/>
+    <entity-resource type="data" reader-name="seed" loader="main" location="data/ofruugoSystemPropertyData.xml"/>
     
     <entity-resource type="data" reader-name="demo" loader="main" location="data/ofruugoSecurityGroupDemoData.xml"/>
     <entity-resource type="data" reader-name="demo" loader="main" location="data/ofruugoDemoData.xml"/>
@@ -37,7 +37,8 @@
 
     <!-- web applications; will be mounted when using the embedded container -->
     <webapp name="ofruugo"
-        title="ofruugo"
+        title="Fruugo Integration"
+        menu-name="secondary"
         server="default-server"
         location="webapp/ofruugo"
         base-permission="OFBTOOLS,ofruugo"
