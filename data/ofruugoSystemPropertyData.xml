@@ -152,7 +152,7 @@
     
     <SystemProperty 
         systemPropertyId="feedPath" 
-        systemPropertyValue="/ofruugo/feed"
+        systemPropertyValue="/ofruugo/images/feed"
         description="The relative path to the location of the feed file for Fruugo to pull from"
         systemResourceId="ofruugo"
         />
