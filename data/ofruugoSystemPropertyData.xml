@@ -97,7 +97,7 @@
     <SystemProperty 
         systemPropertyId="apiRequest.production.orders.interval" 
         systemPropertyValue="interval"
-        description="Fruugo Request related to orders in the production environment"
+        description="Fruugo interval to retrieve orders in the production environment"
         systemResourceId="ofruugo"
         />
     
