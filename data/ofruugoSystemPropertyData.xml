@@ -129,4 +129,32 @@
         systemResourceId="ofruugo"
         />
     
+    <SystemProperty 
+        systemPropertyId="feedHostName" 
+        systemPropertyValue="www.olagos.eu"
+        description="The FQDN name used to have Fruugo pull the feed file from"
+        systemResourceId="ofruugo"
+        />
+    
+    <SystemProperty 
+        systemPropertyId="feedHostProtocol" 
+        systemPropertyValue="http"
+        description="The protocol of the FQDN name used to have Fruugo pull the feed file from"
+        systemResourceId="ofruugo"
+        />
+    
+    <SystemProperty 
+        systemPropertyId="feedHostPort" 
+        systemPropertyValue="80"
+        description="The port number of the FQDN name used to have Fruugo pull the feed file from"
+        systemResourceId="ofruugo"
+        />
+    
+    <SystemProperty 
+        systemPropertyId="feedPath" 
+        systemPropertyValue="/ofruugo/feed"
+        description="The relative path to the location of the feed file for Fruugo to pull from"
+        systemResourceId="ofruugo"
+        />
+    
 </entity-engine-xml>
