@@ -16,5 +16,11 @@
 
  -->
 <entity-engine-xml>
-
+    
+    <GoodIdentificationType goodIdentificationTypeId="GTIN" description="Global Trade Item Number" hasTable="N" parentTypeId=""/>
+    <GoodIdentificationType description="EAN" goodIdentificationTypeId="EAN" hasTable="N" parentTypeId="GTIN"/>
+    <GoodIdentificationType description="ISBN" goodIdentificationTypeId="ISBN" hasTable="N" parentTypeId="GTIN"/>
+    <GoodIdentificationType description="JAN" goodIdentificationTypeId="JAN" hasTable="N" parentTypeId="GTIN"/>
+    <GoodIdentificationType description="UPCA" goodIdentificationTypeId="UPCA" hasTable="N" parentTypeId="GTIN"/>
+    <GoodIdentificationType description="UPCE" goodIdentificationTypeId="UPCE" hasTable="N" parentTypeId="GTIN"/>
 </entity-engine-xml>
