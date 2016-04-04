@@ -16,5 +16,10 @@
 
  -->
 <entity-engine-xml>
-
+    <FinAccount finAccountId="FRUUGO" finAccountTypeId="BANK_ACCOUNT" statusId="FNACT_ACTIVE" finAccountName="Fruugo" finAccountCode="1234567" finAccountPin="1234" currencyUomId="EUR" 
+            organizationPartyId="Company" ownerPartyId="Company" postToGlAccountId="111100" isRefundable="Y" replenishLevel="0.00" actualBalance="0.00" availableBalance="0.00"/>
+    <FinAccountStatus finAccountId="FRUUGO" statusId="FNACT_ACTIVE" statusDate="2009-04-01 00:00:01.000"/>
+    <PaymentMethod paymentMethodId="FRUUGO" paymentMethodTypeId="COMPANY_CHECK"  partyId="Company" description="Checking Account at ABN AMRO Bank" glAccountId="111100" finAccountId="FRUUGO" fromDate="2009-04-01 00:00:00.000"/>
+    <EftAccount paymentMethodId="FRUUGO" nameOnAccount="Company" bankName="Fruugo" routingNumber="12345" accountType="Checking" accountNumber="1234567" contactMechId="9000"/>
+    
 </entity-engine-xml>

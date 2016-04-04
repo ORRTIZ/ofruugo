@@ -30,6 +30,7 @@
     <ProdCatalogCategory prodCatalogId="ofruugo" productCategoryId="ofruugo" 
         fromDate="2001-01-01 00:00:00.0" prodCatalogCategoryTypeId="PCCT_BROWSE_ROOT" 
         />
+    <PaymentMethodType description="Via Fruugo" paymentMethodTypeId="FRUUGO"/>
     
     <ProductPriceType description="Fruugo Price" productPriceTypeId="FRUUGO_PRICE"/>
 </entity-engine-xml>
