@@ -25,5 +25,11 @@
     <GoodIdentificationType description="UPCE" goodIdentificationTypeId="UPCE" hasTable="N" parentTypeId="GTIN"/>
     
     <Enumeration description="Via Fruugo" enumCode="FRUUGO" enumId="ofruugo" sequenceId="61" enumTypeId="ORDER_SALES_CHANNEL"/>
+    <ProdCatalog prodCatalogId="ofruugo" catalogName="Fruugo Catalog" useQuickAdd="Y"/>
+    <ProductCategory productCategoryId="ofruugo" productCategoryTypeId="CATALOG_CATEGORY" categoryName="Fruugo Base Category"/>
+    <ProdCatalogCategory prodCatalogId="ofruugo" productCategoryId="ofruugo" 
+        fromDate="2001-01-01 00:00:00.0" prodCatalogCategoryTypeId="PCCT_BROWSE_ROOT" 
+        />
     
+    <ProductPriceType description="Fruugo Price" productPriceTypeId="FRUUGO_PRICE"/>
 </entity-engine-xml>
