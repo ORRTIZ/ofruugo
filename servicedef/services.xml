@@ -28,4 +28,22 @@
         </description>
     </service> 
     
+    <!-- Products Export Services -->
+    <service name="exportToFruugo" engine="java"
+             location="org.ofbiz.fruugo.ProductsExportToFruugo" invoke="exportToFruugo" auth="true">
+        <description>Export products to Fruugo</description>
+        
+        <attribute type="List" mode="IN" name="selectResult" optional="false"/>
+        <attribute type="String" mode="OUT" name="Fullname" optional="true"/>
+        <attribute type="List" mode="OUT" name="selectResult" optional="false"/>
+        <attribute type="String" mode="OUT" name="testxml" optional="true"/>
+    </service>
+    
+    <service name="getFruugoCategories" engine="java"
+             location="org.ofbiz.fruugo.ProductsExportToFruugo" invoke="getFruugoCategories" auth="true">
+        <description>Get the list of Fruugo categories</description>
+        <attribute type="String" mode="IN" name="categoryCode" optional="true"/>
+        <attribute type="String" mode="IN" name="productStoreId" optional="true"/>
+        <attribute type="List" mode="OUT" name="categories" optional="true"/>
+    </service>
 </services>
