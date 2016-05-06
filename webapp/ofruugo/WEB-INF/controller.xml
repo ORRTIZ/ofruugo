@@ -65,7 +65,7 @@
     
     <request-map uri="testFruugo">
         <security https="true" auth="true"/>
-        <event type="groovy" path="component://ofruugo/src/com/somonar/orrtiz/ofruugo/test/testFruugo.groovy"/>
+         <event type="java" path="com.somonar.orrtiz.ofruugo.FruugoServices" invoke="getOrders"/>
         <response name="success" type="view" value="test"/>
         <response name="error" type="view" value="test"/>
     </request-map>
