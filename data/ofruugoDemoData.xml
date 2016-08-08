@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+(C) Copyright 2015 Somonar B.V.
+
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+
+ -->
+<entity-engine-xml>
+    <FinAccount finAccountId="FRUUGO" finAccountTypeId="BANK_ACCOUNT" statusId="FNACT_ACTIVE" finAccountName="Fruugo" finAccountCode="1234567" finAccountPin="1234" currencyUomId="EUR" 
+            organizationPartyId="Company" ownerPartyId="Company" postToGlAccountId="111100" isRefundable="Y" replenishLevel="0.00" actualBalance="0.00" availableBalance="0.00"/>
+    <FinAccountStatus finAccountId="FRUUGO" statusId="FNACT_ACTIVE" statusDate="2009-04-01 00:00:01.000"/>
+    <PaymentMethod paymentMethodId="FRUUGO" paymentMethodTypeId="COMPANY_CHECK"  partyId="Company" description="Checking Account at ABN AMRO Bank" glAccountId="111100" finAccountId="FRUUGO" fromDate="2009-04-01 00:00:00.000"/>
+    <EftAccount paymentMethodId="FRUUGO" nameOnAccount="Company" bankName="Fruugo" routingNumber="12345" accountType="Checking" accountNumber="1234567" contactMechId="9000"/>
+    
+    <!-- The following three elements set up a regularly scheduled job that will automatically create
+        fixed asset maintenances from ProductMaint time intervals. -->
+    <TemporalExpression tempExprId="FRUUGO_ORDER_POL" tempExprTypeId="FREQUENCY" description="Every Hour" integer1="12" integer2="60"/>
+    <JobSandbox jobId="FRUUGO_ORDER_POL" jobName="Scheduled Fruugo Polling for new orders" runTime="2000-01-01 00:00:00.000" serviceName="pollFruugoFromTimeInterval" poolId="pool" runAsUser="system" tempExprId="FRUUGO_ORDER_POL" maxRecurrenceCount="-1"/>
+    
+</entity-engine-xml>
